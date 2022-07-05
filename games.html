@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charlie Batterbee</title>
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="stylesheets/slick.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <style>
+    body {
+        background: #F0F0F0;
+    }
+
+    .copycolour {
+        background-color: #C4D5D5;
+    }
+
+    .copy {
+        padding: 0 30px;
+
+    }
+
+    @media (min-width: 768px) {
+        .copy {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            max-width: 1075px;
+            margin: auto;
+
+        }
+    }
+
+    .left-copy h1 {
+        text-decoration: none;
+        color: #000000;
+        margin: 0;
+        padding-top: 40px;
+        text-transform: uppercase;
+        font-size: 32px;
+    }
+
+    @media (min-width: 768px) {
+        .left-copy h1 {
+            padding: 90px 0 40px;
+
+        }
+    }
+
+    .left-copy p span {
+        font-weight: bold;
+    }
+
+    .right-copy p {
+        margin-bottom: 0;
+    }
+
+    @media (min-width: 768px) {
+        .right-copy p {
+            padding-top: 171px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+
+        }
+    }
+
+    hr {
+        margin: 0;
+        border: none;
+        color: #000000;
+        height: 1px;
+        background-color: #000000;
+    }
+
+    @media (min-width: 768px) {
+        hr {
+            margin-right: 50px;
+
+        }
+    }
+
+    @media (min-width: 768px) {
+        hr.line {
+            display: none;
+
+        }
+    }
+
+    .underline {
+        display: none;
+    }
+
+    @media (min-width: 768px) {
+        .underline {
+            background: #C4D5D5;
+            display: block;
+
+        }
+    }
+
+    @media (min-width: 768px) {
+        .underline span {
+            display: block;
+            width: 987px;
+            height: 1px;
+            background: #000;
+            margin: 0 auto;
+        }
+    }
+
+
+    /*rock-paper-scissors*/
+    @media (min-width: 768px) {
+        .rock-paper-scissors .container {
+            grid-template-columns: 1fr 1fr;
+            display: grid;
+            max-width: 80px;
+
+        }
+    }
+
+    .rock-paper-scissors .container {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .rock-paper-scissors h1 {
+        text-decoration: underline;
+        color: #000000;
+        text-align: center;
+        padding-top: 0px;
+        text-transform: uppercase;
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+
+    @media (min-width: 768px) {
+        .rock-paper-scissors h1 {
+            padding-top: 40px;
+            font-size: 32px;
+
+        }
+    }
+
+    .rock-paper-scissors h2 {
+        color: #13aabb;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .rock-paper-scissors h2 span {
+        color: #000000;
+        text-transform: lowercase;
+        font-family: arial;
+        display: block;
+        text-align: center;
+    }
+
+    .rock-paper-scissors p {
+        font-size: 20px;
+    }
+
+    .rock-paper-scissors .result h2 {
+        color: #13aabb;
+        font-size: 30px;
+    }
+
+    .rock-paper-scissors .result h2 span {
+        color: black;
+        font-size: 40px;
+        font-weight: 300;
+
+    }
+
+    .rock-paper-scissors .computer p {
+        display: block;
+        text-align: center;
+    }
+
+    .rock-paper-scissors .yourChoice p {
+        display: block;
+        text-align: center;
+    }
+
+    .rock-paper-scissors button {
+        margin: 0 auto;
+        display: inline-block;
+        font-size: 16px;
+        padding: 10px;
+        background-color: #C4D5D5;
+        border-radius: 10px;
+
+    }
+
+    .rock-paper-scissors .yourChoice #paper {
+        margin: 5px 10px;
+    }
+
+    /* Memory game */
+    .memory {
+        background-color: #C4D5D5;
+        max-width: 1072px;
+        height: 650px;
+        margin: 0 auto;
+        margin-top: 50px;
+        border-radius: 10px;
+    }
+    @media (min-width: 768px) {
+    .memory {
+
+        height: 600px;
+    }}
+  .memory h1 {
+        text-decoration: underline;
+        color: #000000;
+        text-align: center;
+        padding-top: 40px;
+        text-transform: uppercase;
+        font-size: 30px;
+
+        padding-top: 50px;
+    }
+
+@media (min-width: 768px) {
+    .memory h1 {
+        font-size: 32px;
+    }}
+
+    .memory #grid {
+        width: 318px;
+        display: flex;
+        flex-wrap: wrap;
+        grid-row-gap: 5px;
+        grid-column-gap: 5px;
+        margin: 0 auto;
+
+    }
+
+@media (min-width: 768px) {
+    .memory #grid {
+        width: 418px;
+    }}
+
+    .memory h3 {
+        font-size: 32px;
+        font-family: domine, bold;
+        text-align: center;
+    }
+
+    .memory h2 {
+        font-family: open sans, light;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* arrows */
+    .arrows {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .right-arrows {
+        text-align: right;
+        margin-right: 60px;
+    }
+
+    @media (min-width: 768px) {
+        .right-arrows {
+            text-align: right;
+            margin-right: 180px;
+        }
+    }
+
+    .left-arrows {
+        margin-right: 60px;
+    }
+
+    @media (min-width: 768px) {
+        .left-arrows {
+
+            margin-left: 180px;
+        }
+    }
+
+    .right-arrows a,
+    .left-arrows a {
+        color: #000000;
+        text-decoration: none;
+    }
+    </style>
+    <!-- nav bar -->
+    <header>
+        <a href="index.html"><img src="images/logoW.png"></a>
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <!-- slide out nav -->
+    <nav>
+        <a target="_blank" href="images/CharlieBatterbeePotfolio.pdf">Portfolio</a>
+        <a target="_blank" href="images/CharliebatterbeeCV.pdf">CV</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    </div>
+    <!-- nav bar ends-->
+    <div class="copycolour">
+        <div class="copy">
+            <div class="left-copy">
+                <h1>JavaScript Games</h1>
+                <p><span>Project:</span> Personal development</p>
+                <hr>
+                <p><span>Programmes/Skills used:</span></p>
+                <p> HTML, CSS, JavaScript,<br>Photoshop, XD </p>
+                <hr class="line">
+            </div>
+            <div class="right-copy">
+                <p> To learn and develop my JavaScript skills i have been following an online tutorial on how to create multiple games using mainly javascript. I have them been editing them to make them more personal to me.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="underline">
+        <span></span>
+    </div>
+    <img src="images/wavestress.svg">
+    <div class="rock-paper-scissors">
+        <h1>Rock Paper scissors</h1>
+        <div class="container">
+            <div class="computer">
+                <h2>Computer Choice : </h2>
+                <P><span id="computer-choice"></span></P>
+            </div>
+            <div class="yourChoice">
+                <h2>Your Choice : </h2>
+                <p><span id="your-choice"></span>
+                    <P>
+                        <button id="rock">rock 🪨</button>
+                        <button id="paper">paper 📃</button>
+                        <button id="scissors">scissors ✂️</button>
+            </div>
+        </div>
+        <div class="result">
+            <h2>result: <span id="result"></span></h2>
+        </div>
+    </div>
+    <div class="memory">
+        <h1>Memory Challenge </h1>
+        <h3>Score: <span id="memoryResult"></span></h3>
+        <h2 id="final-message"></h2>
+        <div id="grid"></div>
+    </div>
+    <div class="arrows">
+        <div class="left-arrows">
+            <a href="ycn.html">
+                <p> <span>&#8592</span>YCN Art Fund </p>
+            </a>
+        </div>
+        <!-- <div class="right-arrows">
+            <a href="hidden.html">
+                <p> Personal: Hidden <span>&#8594</span></p>
+            </a>
+        </div> -->
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="scrolltotopbtn">
+            <a href="#topofpage">BACK TO TOP</a>
+        </div>
+        <div class="social">
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/charlotte-batterbee-85477b160/" class="fa fa-linkedin"></a></li>
+                <li>
+                    <a href="https://www.instagram.com/c_k_b_design/" class="fa fa-instagram"></a></li>
+            </ul>
+            <div class="year-name">
+                <p id="Year"> </p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends  -->
+    <script src="js/rock-paper-scissors.js"></script>
+    <script src="js/memory.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
