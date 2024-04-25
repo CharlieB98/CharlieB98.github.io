@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Care</title>
+    <style>
+        html {
+            background: linear-gradient(179.1deg, rgb(33, 120, 106) 2.3%, rgb(42, 174, 96) 98.3%);
+
+
+        }
+
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            margin: 30px;
+            hyphens: none;
+
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                max-width: 80%;
+                margin: 0 auto;
+            }
+        }
+
+        .header h1 span {
+            color: #AFE1AF;
+            font-weight: 600;
+        }
+
+        .header h1 {
+            color: #097969;
+            font-weight: 400;
+            text-align: center;
+            font-size: 60px;
+            padding-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .header img {
+            max-width: 80%;
+            display: block;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 32px;
+            color: #097969;
+            padding-top: 20px;
+            font-family: sans-serif;
+        }
+
+        .grid {
+            padding: 20px 25px;
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+        @media (min-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-gap: 25px;
+            }
+        }
+
+        .grid img {
+            max-width: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+
+
+
+        }
+
+        @media (min-width: 768px) {
+            .grid img {
+                height: 200px;
+
+            }
+        }
+
+        h2 {
+            color: #AFE1AF;
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 16px;
+            font-family: sans-serif;
+            line-height: 24px;
+        }
+
+        a {
+            font-family: sans-serif;
+            color: #097969;
+            font-size: 14px;
+
+        }
+
+        button {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            font-family: sans-serif;
+            border-radius: 5px;
+            background-color: #454B1B;
+            border: none;
+            color: white;
+            margin-bottom: 20px;
+            box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.6);
+            transition: 0.5s;
+        }
+
+        button:hover {
+            background-color: #097969;
+        }
+
+        h4 {
+            text-align: center;
+            font-size: 18px;
+            padding-bottom: 30px;
+            color: #8fbc8f;
+
+        }
+
+        button.perfect {
+            margin: 0 auto;
+            padding: 20px;
+            font-size: 15px;
+            margin-bottom: 50px;
+
+        }
+
+        .results {
+            text-align: center;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1> <span>Plant</span>Care</h1>
+
+        </div>
+        <h3>🌱Key caring tips for indoor plants🌱</h3>
+        <div class="grid">
+            <div class="watering">
+                <img
+                    src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F37%2F2019%2F12%2FWatering-house-plant.jpg">
+                <h2>Watering</h2>
+                <hr>
+                <p>It's important to make sure your plant gets enough water to grow healthily, but no so much that it
+                    drowns.
+                </p>
+                <p>
+                    Over-watering is equally as harmful as under-watering.
+                    Your plant should stay in a nursary pot which has drainage holes so any excess water can run out!
+                    Make sure you empty any excess water as you dont want your plant sitting in water as it will get
+                    root rot!!!! <br><br>
+                    If you want to use a decorative pot place the nursary pot inside the decorate pot.
+                </p>
+                <a href="https://www.patchplants.com/gb/en/care/how-much-should-i-water-plant/" target=“_blank”>
+                    <strong>Find out more about watering here!</strong></a>
+                <button class="wateringButton">Watering test</button>
+            </div>
+            <div class="repotting">
+                <img src="https://www.gardeningknowhow.com/wp-content/uploads/2008/12/repotting-1.jpg">
+                <h2>Re-potting</h2>
+                <hr>
+                <p>Every plant has diffrent needs, some plants love being root bound and some hate it. </p>
+                <p>Having a plant in a pot which is too small could completly stop it from growing and slowley kill it!
+                </p>
+                <p>The best time to repot a plant is in the spring so that actively growing roots will have enough time
+                    to grow into newly added potting mix. You should choose a potting mix or potting soil especially
+                    created for potted plants you can get diffrent types that are better for certain parts.
+                </p>
+                <a href="https://www.patchplants.com/gb/en/care/should-i-repot-my-plant/" target=“_blank”><strong>Find
+                        out more about re-potting </strong></a>
+                <button class="repottingButton">Re-potting test</button>
+            </div>
+            <div class="light">
+                <img
+                    src="https://images.immediate.co.uk/production/volatile/sites/22/2021/01/Houseplants-in-window-c54c676.jpg">
+                <h2>Light conditions</h2>
+                <hr>
+                <p>Lighting is important if you want your plant to grow and thrive, if it gets enough it will give you
+                    new leaves and flowers, too little and it will slowley get yellow leaves anf will not bloom. However
+                    too much and your leaves might droop and fade in colour and shrival up. </p>
+                <p>There are diffrent types of light conditions direct bright light, indirect bright light, Partial
+                    sunlight and shade,Full shade or low light
+                </p>
+                <a href="https://www.patchplants.com/gb/en/care/how-much-light-plants-need/"
+                    target=“_blank”><strong>Find out more about light condition</strong></a>
+                <p>Click the button below to find out what plants would be best for your light sonditions!</p>
+                <button class="lightButton">Plant recommender</button>
+            </div>
+        </div>
+        <div class="perfectPlant">
+            <h3>🪴Want to know what your perfect plant is? 🪴</h3>
+            <p class="results"> </p>
+            <button class="perfect">Find out now!</button>
+
+        </div>
+        <h4><em>Coded by Charlie Batterbee 2022</em></h4>
+    </div>
+    <script>
+        function wateringButton() {
+
+            let name = prompt("What is your name?")
+            let daysWatered = prompt("Hi " + name + "! How many days ago did you last water your plant?")
+            let soil = prompt("Place your finger into the soil, does the soil feel wet? (yes or no)")
+            soil = soil.toLowerCase();
+
+            if (daysWatered >= 12 && soil === "no") {
+                alert("Your plant proberly needs some water! 🌱💦")
+            }
+            if (daysWatered <= 11 && soil === "yes") {
+                alert("Your plant doesn't need any water! 🌱")
+            }
+            if (daysWatered >= 12 && soil === "yes") {
+                alert("Your plant will need water soon, but not just yet! 🌱")
+            }
+            if (daysWatered <= 11 && soil === "no") {
+                alert("Your plant potentialy needs some water! 🌱💦")
+            }
+
+        }
+        let watering = document.querySelector(".wateringButton");
+
+        watering.addEventListener("click", wateringButton);
+
+
+
+
+
+
+
+        function repottingButton() {
+
+            let name = prompt("What is your name?")
+            let roots = prompt("Hi " + name + "! Are there any roots coming out the bottom of your pot? (yes or no)")
+            roots = roots.toLowerCase();
+
+            if (roots === "yes") {
+
+                alert("You should think about repotting in spring!");
+
+            } else {
+
+                alert("Your plant doesn't need re-potting just yet!");
+
+            }
+        }
+        let repotting = document.querySelector(".repottingButton");
+
+        repotting.addEventListener("click", repottingButton);
+
+
+
+
+
+
+        function lightButton() {
+
+            let name = prompt("What is your name?")
+            let cardinal = prompt("Hi " + name + " is your window North, South, East or West facing? ☀️(pick closest one)")
+            cardinal = cardinal.toLowerCase();
+
+            if (cardinal === "north") {
+
+                alert("We would recomend these plants for a North window: Snake Plant🪴, Spider Plant🌱, zz Plant🍃, Pothos🌱🌱 ");
+
+            }
+            if (cardinal === "south") {
+
+                alert("We would recomend these plants for a south window: Aloe vera🍃, Jade Plant🪴, String of Pearls🌿, Hibiscus🌱");
+
+            }
+            if (cardinal === "east") {
+
+                alert("We would recomend these plants for a east window: Fiddle leaf fig🪴, Prayer Plant🌿, Orchids🌸, Umbrella tree🌱");
+
+            }
+            if (cardinal === "west") {
+
+                alert("We would recomend these plants for a west window: Peace lily🌼, Cactus🌵, Dracaena🪴, Mint plant🌿");
+
+            }
+
+        }
+        let light = document.querySelector(".lightButton");
+
+        light.addEventListener("click", lightButton);
+
+
+
+
+
+
+        function perfectPlant() {
+
+            let light = prompt("Is this plant going to be in sunlight, sun & shade or shade? ")
+            let experience = prompt("What is your plant experience? (beginner, intermediate or advance) ")
+
+            light = light.toLowerCase();
+            experience = experience.toLowerCase();
+            light = light.replace("sun and shade", "sun & shade");
+
+            let result = document.querySelector(".results");
+
+            if (light === "sunlight" && experience === "beginner") {
+
+                result.innerHTML = "Your perfect plant is a ivy Plant🌱";
+            }
+            if (light === "sun & shade" && experience === "beginner") {
+
+                result.innerHTML = "Your perfect plant is a Parlour Palm🌱";
+            }
+            if (light === "shade" && experience === "beginner") {
+
+                result.innerHTML = "Your perfect plant is a Snake Plant🌱";
+            }
+            if (light === "sunlight" && experience === "intermediate") {
+
+                result.innerHTML = "Your perfect plant is a Tradescantia Nanouk🌱";
+            }
+            if (light === "sun & shade" && experience === "intermediate") {
+
+                result.innerHTML = "Your perfect plant is a Boston Fern🌱";
+            }
+            if (light === "shade" && experience === "intermediate") {
+
+                result.innerHTML = "Your perfect plant is a String of Nickles🌱";
+            }
+            if (light === "sunlight" && experience === "advance") {
+
+                result.innerHTML = "Your perfect plant is a Cocus Nucifera🌱";
+            }
+            if (light === "sun & shade" && experience === "advance") {
+
+                result.innerHTML = "Your perfect plant is a Rubber Plant🌱";
+            }
+            if (light === "shade" && experience === "advance") {
+
+                result.innerHTML = "Your perfect plant is a maidenhair Fern🌱";
+            }
+        }
+
+        let perfect = document.querySelector(".perfect");
+
+        perfect.addEventListener("click", perfectPlant);
+    </script>
+</body>
+
+</html>
